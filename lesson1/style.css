@@ -1,0 +1,26 @@
+*{margin: 0;}
+body{ margin: 0;background-color: rgb(236, 236, 241);}
+.header{background-color: blue; clear:both; overflow: auto;}
+
+.head_p{padding: 20px;}
+
+.logo{animation: 1s ease-out 0s 1 slide; float:left; color: white; padding:10px; font-size: 40px;}
+
+.nav{ float:right; color: white;}
+
+.header li{display: inline-block; 
+padding: 20px; 
+font-size: 20px ;
+}
+
+.header li:hover{color: red;}
+
+.hero{background-image: url('background.png'); height: 400px; color: azure; position: relative;}
+.hero h2{text-align: center; padding-top: 180px; top: 50%; font-size: 75px; color: blue;}
+
+ol li{margin: 10px;}
+footer{text-align: center; padding: 30px;background-color: blue; color: white;}
+@keyframes slide{
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(0);}
+}
